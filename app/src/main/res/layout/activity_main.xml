@@ -5,19 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.myapplication.MainActivity">
-    <TextView
-        android:layout_width="match_parent"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="头条"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="#1E90FF"
-        android:textAlignment="center"
-        android:height="40dp"
-        />
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/myRecycle"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:text="@string/button"
+        android:textSize="36sp"
+        android:typeface="monospace"
+        android:visibility="visible"
+        tools:visibility="visible" />
 </LinearLayout>
